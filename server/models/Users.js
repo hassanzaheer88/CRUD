@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const { default: Users } = require('../../client/src/Users')
 
 const UserSchema = new mongoose.Schema({
     name: String,
